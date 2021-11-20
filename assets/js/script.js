@@ -31,6 +31,7 @@ $(document).ready(function () {
         })
     }
 
+    // recalling saved information in each individual time slot.
     $("#9Am .description").val(localStorage.getItem("9Am"));
     $("#10Am .description").val(localStorage.getItem("10Am"));
     $("#11Am .description").val(localStorage.getItem("11Am"));
@@ -43,3 +44,9 @@ $(document).ready(function () {
     
     theTimeNow();
 });
+
+/* if when statements/pseudo code
+1) when I click on textarea a box will allow for text
+2) when I click save, task will be saved locally
+3) when I refresh task will be pulled from local storage
+4) current date displays on the header */
