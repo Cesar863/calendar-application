@@ -12,6 +12,6 @@
 - First, click anywhere in the text (right of the time slot)
 - Second, enter the task at that time slot
 - third, click the blue save button to save the task to local storage.
-- ![screen shot of application] (https://github.com/cesar863/calnedar-application/blob/main/calendar.png?raw=true)
+- ![screen shot of application] (https://github.com/Cesar863/calendar-application/blob/main/assets/images/calendar.PNG)
 
 ## task can be edited by clicking on the text in a tasked area, editing the task and pressing the save button again.
