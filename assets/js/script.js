@@ -1,6 +1,15 @@
 var today = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(today);
 
+$("#printBtn").click(function(){
+    window.print();
+})
+
+$("#clearBtn").click(function(){
+    localStorage.clear();
+    location.reload();
+})
+
 $(document).ready(function () {
     $(".saveBtn").on("click", function () {
         var task = $(this).siblings(".description").val();
